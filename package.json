@@ -1,0 +1,22 @@
+{
+  "name": "vera",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "frontend"
+  ],
+  "scripts": {
+    "predev": "node scripts/cleanup-dev.js",
+    "dev": "concurrently -k -n backend,frontend -c blue,green \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:backend": "cd backend && python -m uvicorn app.main:app --reload --port 8000",
+    "dev:frontend": "npm run dev --workspace frontend",
+    "build": "npm run build --workspace frontend",
+    "setup": "npm install && npm run setup:env && npm run setup:backend",
+    "setup:env": "node scripts/setup-env.js",
+    "setup:backend": "cd backend && python -m pip install -r requirements.txt",
+    "reset:db": "node scripts/reset-db.js"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}

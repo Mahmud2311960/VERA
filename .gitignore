@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Next.js
+frontend/.next/
+frontend/out/
+frontend/.env.local
+
+# Python
+backend/__pycache__/
+backend/**/__pycache__/
+backend/*.py[cod]
+backend/.env
+backend/vera.db
+backend/.venv/
+backend/venv/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.log
+
+# Generated
+vera_proposal_extracted.txt
