@@ -3,7 +3,7 @@
 **Document:** 15-use-cases.md
 **Phase:** Software Requirements Specification (SRS)
 **Project:** VERA — Volunteer Emergency Response Alliance
-**Author:** [Your Name] — SRS & TDD module owner
+**Author:** [Ridwan Hasan Khandakar] — SRS & TDD module owner
 
 ## 1. Actors
 

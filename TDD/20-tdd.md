@@ -3,7 +3,7 @@
 **Document:** 20-tdd.md
 **Project:** VERA — Volunteer Emergency Response Alliance
 **Course:** CSE307 — System Analysis and Design, Section 02
-**Author:** [Your Name] — SRS & TDD module owner
+**Author:** [Ridwan Hasan Khandakar] — SRS & TDD module owner
 
 ## 1. Introduction
 

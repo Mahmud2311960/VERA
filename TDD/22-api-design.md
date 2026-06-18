@@ -3,7 +3,7 @@
 **Document:** 22-api-design.md
 **Phase:** Technical Design Document (TDD)
 **Project:** VERA — Volunteer Emergency Response Alliance
-**Author:** [Your Name] — SRS & TDD module owner
+**Author:** [Ridwan Hasan Khandakar] — SRS & TDD module owner
 
 ## 1. Purpose
 
